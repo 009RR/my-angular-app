@@ -12,7 +12,7 @@ export class Profile {
  name: string = "Rajesh Sharadrao Raut";
 role: string = "Software Developer";
 location: string = "Pune, India";
-linkedinUrl: string = "https://www.linkedin.com/feed/";
-githubUrl: string = "https://github_profile_url.com";
+linkedinUrl: string = "https://www.linkedin.com/in/rajesh-raut-7b72a230b/";
+githubUrl: string = "https://https://github.com/009RR";
 
 }
