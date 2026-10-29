@@ -1,0 +1,15 @@
+<div class="profile">
+    <img [ngSrc]="'images/profile.jpg'" 
+         alt="profile Picture" 
+         width="200" 
+         height="300" 
+         priority 
+    />
+    <h2>{{ name }}</h2>
+    <p>{{ role }} - {{ location }}</p>
+
+    <div class="social-links">
+        <a [href]="linkedinUrl" target="_blank"class="social-button">LinkedIn</a>
+        <a [href]="githubUrl" target="_blank"class="social-button">github</a>
+    </div>
+</div>
